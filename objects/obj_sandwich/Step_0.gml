@@ -2,7 +2,7 @@ var _horiz = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 var _vert = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 
 
-move_and_collide(_horiz * movement_speed, _vert * movement_speed, all, undefined, undefined, undefined, movement_speed, movement_speed)
+move_and_collide(_horiz * movement_speed, _vert * movement_speed, [], undefined, undefined, undefined, movement_speed, movement_speed)
 
 if (_horiz != 0 or _vert != 0)
 {

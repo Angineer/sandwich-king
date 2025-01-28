@@ -13,4 +13,5 @@ for (var i = 0; i < array_length(selectable_objects); i++) {
 if (lowest_object != undefined)
 {
     lowest_object.selected = true;
+    selected_object = lowest_object;
 }

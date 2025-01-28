@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_recipe_card",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_ingredient",
+  "eventList":[],
   "managed":true,
-  "name":"obj_recipe_card",
+  "name":"obj_ingredient",
   "overriddenProperties":[],
   "parent":{
-    "name":"Recipe Screen",
-    "path":"folders/Objects/Recipe Screen.yy",
+    "name":"Planning Screen",
+    "path":"folders/Objects/Planning Screen.yy",
   },
   "parentObjectId":{
     "name":"obj_drag_and_drop",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_recipe_card",
-    "path":"sprites/spr_recipe_card/spr_recipe_card.yy",
+    "name":"spr_bread",
+    "path":"sprites/spr_bread/spr_bread.yy",
   },
   "spriteMaskId":null,
   "visible":true,

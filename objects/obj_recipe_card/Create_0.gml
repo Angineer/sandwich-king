@@ -1,4 +1,5 @@
-mouse_over = false;
-selected = false;
-x_offset = 0;
-y_offset = 0;
+// Inherit the parent event
+event_inherited();
+title = "Granny's Oatmeal"
+description = "That warm fuzzy feeling of home"
+ingredients = "* 1 bag of oats\n* Hot water"

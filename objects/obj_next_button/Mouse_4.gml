@@ -1,0 +1,1 @@
+if (visible) room_goto(rm_planning);

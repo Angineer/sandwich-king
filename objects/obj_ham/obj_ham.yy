@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ingredient",
+  "%Name":"obj_ham",
   "eventList":[],
   "managed":true,
-  "name":"obj_ingredient",
+  "name":"obj_ham",
   "overriddenProperties":[],
   "parent":{
     "name":"Planning Screen",
     "path":"folders/Objects/Planning Screen.yy",
   },
   "parentObjectId":{
-    "name":"obj_drag_and_drop",
-    "path":"objects/obj_drag_and_drop/obj_drag_and_drop.yy",
+    "name":"obj_ingredient",
+    "path":"objects/obj_ingredient/obj_ingredient.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ham",
+    "path":"sprites/spr_ham/spr_ham.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

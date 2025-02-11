@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ingredient",
-  "eventList":[],
+  "%Name":"obj_pbj",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_ingredient",
+  "name":"obj_pbj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Planning Screen",
-    "path":"folders/Objects/Planning Screen.yy",
+    "name":"Recipes",
+    "path":"folders/Objects/Recipe Screen/Recipes.yy",
   },
   "parentObjectId":{
-    "name":"obj_drag_and_drop",
-    "path":"objects/obj_drag_and_drop/obj_drag_and_drop.yy",
+    "name":"obj_recipe_card",
+    "path":"objects/obj_recipe_card/obj_recipe_card.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_recipe_card",
+    "path":"sprites/spr_recipe_card/spr_recipe_card.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

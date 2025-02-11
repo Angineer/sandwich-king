@@ -1,1 +1,1 @@
-if (visible) room_goto(rm_planning);
+if (visible) room_goto_next();

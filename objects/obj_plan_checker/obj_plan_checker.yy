@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ingredient",
-  "eventList":[],
+  "%Name":"obj_plan_checker",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":56,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_ingredient",
+  "name":"obj_plan_checker",
   "overriddenProperties":[],
   "parent":{
     "name":"Planning Screen",
     "path":"folders/Objects/Planning Screen.yy",
   },
-  "parentObjectId":{
-    "name":"obj_drag_and_drop",
-    "path":"objects/obj_drag_and_drop/obj_drag_and_drop.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

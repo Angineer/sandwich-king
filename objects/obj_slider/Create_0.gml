@@ -1,0 +1,1 @@
+slide_speed = 5;

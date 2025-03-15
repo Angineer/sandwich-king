@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_slider",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_slider_ham",
+  "eventList":[],
   "managed":true,
-  "name":"obj_slider",
+  "name":"obj_slider_ham",
   "overriddenProperties":[],
   "parent":{
     "name":"Battle Screen",
     "path":"folders/Objects/Battle Screen.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_slider",
+    "path":"objects/obj_slider/obj_slider.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_slider_ham",
+    "path":"sprites/spr_slider_ham/spr_slider_ham.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

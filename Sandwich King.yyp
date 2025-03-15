@@ -63,6 +63,7 @@
     {"id":{"name":"obj_recipe_card","path":"objects/obj_recipe_card/obj_recipe_card.yy",},},
     {"id":{"name":"obj_sandwich","path":"objects/obj_sandwich/obj_sandwich.yy",},},
     {"id":{"name":"obj_slider_bread","path":"objects/obj_slider_bread/obj_slider_bread.yy",},},
+    {"id":{"name":"obj_slider_ham","path":"objects/obj_slider_ham/obj_slider_ham.yy",},},
     {"id":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},},
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"id":{"name":"rm_planning","path":"rooms/rm_planning/rm_planning.yy",},},

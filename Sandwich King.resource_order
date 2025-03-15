@@ -39,6 +39,7 @@
     {"name":"obj_prompt","order":3,"path":"objects/obj_prompt/obj_prompt.yy",},
     {"name":"obj_recipe_card","order":1,"path":"objects/obj_recipe_card/obj_recipe_card.yy",},
     {"name":"obj_slider_bread","order":4,"path":"objects/obj_slider_bread/obj_slider_bread.yy",},
+    {"name":"obj_slider_ham","order":8,"path":"objects/obj_slider_ham/obj_slider_ham.yy",},
     {"name":"obj_slider","order":1,"path":"objects/obj_slider/obj_slider.yy",},
     {"name":"rm_battle","order":3,"path":"rooms/rm_battle/rm_battle.yy",},
     {"name":"rm_planning","order":2,"path":"rooms/rm_planning/rm_planning.yy",},

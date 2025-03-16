@@ -1,0 +1,1 @@
+draw_text_colour(x, y, text, c_red, c_red, c_red, c_red, alpha);

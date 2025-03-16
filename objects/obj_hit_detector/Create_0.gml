@@ -1,0 +1,2 @@
+text = ""
+alpha = 0

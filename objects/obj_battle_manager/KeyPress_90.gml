@@ -12,16 +12,18 @@ var actual_x = active_inst.x;
 var diff = abs(target_x - actual_x);
 
 if diff < great_hit_distance {
-    show_debug_message("Bread: Great!");
     active_inst.hit = true;
+    bread_detector.text = "Great!"
     game_score += 20;
 }
 else if diff < good_hit_distance {
-    show_debug_message("Bread: Good!");
     active_inst.hit = true;
+    bread_detector.text = "Good!"
     game_score += 10;
 }
 else {
-    show_debug_message("Bread: Miss!");
+    bread_detector.text = "Miss!"
     game_score -= 10;
 }
+
+bread_detector.alpha = 1;

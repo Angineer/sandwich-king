@@ -1,1 +1,2 @@
-slide_speed = 5;
+slider_speed = 5;
+hit = false;

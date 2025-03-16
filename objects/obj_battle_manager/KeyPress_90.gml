@@ -1,22 +1,27 @@
 if (active_bread == -1) exit;
     
-var target_x = instance_find(obj_hit_detector, 0).x;
-var actual_x = bread_instances[active_bread].x;
+var active_inst = bread_instances[active_bread];
+    
+if (active_inst.hit == true) {
+    game_score -=10;
+    exit;
+}
+    
+var target_x = bread_detector.x;
+var actual_x = active_inst.x;
 var diff = abs(target_x - actual_x);
 
-
-if diff < 5 {
-    show_debug_message("Bread: Perfect!");
-}
-else if diff < 10 {
+if diff < great_hit_distance {
     show_debug_message("Bread: Great!");
+    active_inst.hit = true;
+    game_score += 20;
 }
-else if diff < 20 {
+else if diff < good_hit_distance {
     show_debug_message("Bread: Good!");
-}
-else if diff < 50 {
-    show_debug_message("Bread: Bad!");
+    active_inst.hit = true;
+    game_score += 10;
 }
 else {
-    show_debug_message("Bread: Miss!")
+    show_debug_message("Bread: Miss!");
+    game_score -= 10;
 }

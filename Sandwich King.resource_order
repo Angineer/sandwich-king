@@ -7,6 +7,7 @@
     {"name":"Objects","order":8,"path":"folders/Objects.yy",},
     {"name":"Battle Screen","order":7,"path":"folders/Objects/Battle Screen.yy",},
     {"name":"Finish Screen","order":9,"path":"folders/Objects/Finish Screen.yy",},
+    {"name":"Title Screen","order":10,"path":"folders/Objects/Title Screen.yy",},
     {"name":"Planning Screen","order":4,"path":"folders/Objects/Planning Screen.yy",},
     {"name":"Recipe Screen","order":3,"path":"folders/Objects/Recipe Screen.yy",},
     {"name":"Recipes","order":2,"path":"folders/Objects/Recipe Screen/Recipes.yy",},
@@ -26,6 +27,7 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnt_cards","order":1,"path":"fonts/fnt_cards/fnt_cards.yy",},
     {"name":"obj_battle_manager","order":7,"path":"objects/obj_battle_manager/obj_battle_manager.yy",},
     {"name":"obj_bread","order":2,"path":"objects/obj_bread/obj_bread.yy",},
     {"name":"obj_drag_and_drop","order":5,"path":"objects/obj_drag_and_drop/obj_drag_and_drop.yy",},
@@ -48,6 +50,7 @@
     {"name":"rm_planning","order":2,"path":"rooms/rm_planning/rm_planning.yy",},
     {"name":"rm_recipe","order":1,"path":"rooms/rm_recipe/rm_recipe.yy",},
     {"name":"seq_ham","order":1,"path":"sequences/seq_ham/seq_ham.yy",},
+    {"name":"snd_battle","order":1,"path":"sounds/snd_battle/snd_battle.yy",},
     {"name":"spr_card_reader","order":22,"path":"sprites/spr_card_reader/spr_card_reader.yy",},
     {"name":"spr_ham","order":1,"path":"sprites/spr_ham/spr_ham.yy",},
     {"name":"spr_hit_ok","order":4,"path":"sprites/spr_hit_ok/spr_hit_ok.yy",},

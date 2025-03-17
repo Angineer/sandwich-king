@@ -1,12 +1,14 @@
 game_score = 0;
 
-x_start_position = window_get_width() + 100;
-x_spacing = 100;
+x_start_position = window_get_width() + 95;
+// Spacing = frame_rate * slider_speed * 60 / BPM / k
+x_spacing = 60 * 5 * 60 / 70 / 2;
 
 great_hit_distance = 20;
 good_hit_distance = 40;
 
 bread_pattern = [1, 3, 5, 7];
+//bread_pattern = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25];
 ham_pattern = [3, 4, 7, 8]
 
 bread_detector = instance_find(obj_hit_detector, 0);

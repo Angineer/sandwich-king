@@ -3,3 +3,5 @@ obj_game_state.room_north = noone;
 obj_game_state.room_south = noone;
 obj_game_state.room_east = noone;
 obj_game_state.room_west = rm_map_11;
+
+obj_game_state.tile_map = layer_tilemap_get_id("Tiles_1")
